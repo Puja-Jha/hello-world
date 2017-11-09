@@ -1,0 +1,8 @@
+<suite name="Suite" parallel="none">
+<test name="ChromeTest">
+<parameter name="Browser" value="Chrome" />
+<classes>
+<class name="tutorial.selenium.PageObjectModel" />
+</classes>
+</test>
+</suite>

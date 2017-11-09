@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="ChromeTest">
+  <parameter name="browsers" value="Chrome" />
+    <classes>
+      <class name="FlightBooking.Cleartripdriver"/>
+    </classes>
+  </test>
+  <test name="FirefoxTest">
+  <parameter name="browsers" value="Firefox" />
+    <classes>
+      <class name="FlightBooking.Cleartripdriver"/>
+    </classes>
+  </test>
+</suite>

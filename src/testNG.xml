@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="2" parallel="false">
+<test name="ChromeTest">
+<parameter name="browsers" value="Chrome" />
+<classes>
+<class name="pageclasses.DriverScript" />
+</classes>
+</test>
+ <test name="FirefoxTest">
+<parameter name="browsers" value="Firefox" />
+<classes>
+<class name="pageclasses.DriverScript"/>
+</classes>
+</test> 
+</suite>
+
